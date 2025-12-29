@@ -98,6 +98,13 @@ Plumbline became a way to explore pose estimation, geometry, and temporal stabil
 
 Dependencies are listed in `requirements.txt`.
 
+--- 
+
+## 📚 Acknowledgment
+
+This project was inspired by open-source MediaPipe posture analysis examples and documentation.  
+All geometry, classification logic, smoothing, timing, and visualization were reimplemented from scratch with an original structure and design.
+
 ---
 
 ## ▶️ How to run
