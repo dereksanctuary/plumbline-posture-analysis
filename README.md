@@ -7,10 +7,21 @@ This project focuses on **robust geometry, stable classification, and clear visu
 
 ---
 
+## ▶️ Demo
+
+A full demo of Plumbline running on a prerecorded video is available here:
+
+▶️ **YouTube demo:** https://www.youtube.com/watch?v=ti0AaoSro_Y
+
+> Note: Input and output `.mp4` files are intentionally excluded from this repository due to file size limits.  
+> The demo video shows the complete pipeline from input video to annotated output.
+
+---
+
 ## 📌 What it does
 
-- Takes a prerecorded side-view video (`.mp4`) as input
-- Detects human pose landmarks using MediaPipe Pose
+- Takes a prerecorded side-view video (`.mp4`) as input  
+- Detects human pose landmarks using MediaPipe Pose  
 - Computes:
   - **Neck inclination** (shoulder → ear vs vertical)
   - **Torso inclination** (hip → shoulder vs vertical)
@@ -30,10 +41,10 @@ This project focuses on **robust geometry, stable classification, and clear visu
 The inspiration for Plumbline is intentionally simple and personal.
 
 Growing up, my aunt often told me I had bad posture — something I strongly disagreed with.  
-That disagreement eventually turned into curiosity: *could I measure posture objectively instead of arguing about it?*
+That disagreement eventually turned into curiosity: *could posture be measured objectively instead of argued about?*
 
 At the same time, I wanted to deepen my experience with **computer vision and OpenCV**, especially after working with peers on hardware projects using Arduino.  
-Plumbline became a way to explore pose estimation, geometry, and temporal stability in a visual, real-world problem.
+Plumbline became a way to explore pose estimation, geometry, and temporal stability through a real-world, visual problem.
 
 ---
 
@@ -94,3 +105,4 @@ Dependencies are listed in `requirements.txt`.
 ```bash
 pip install -r requirements.txt
 python main490.py
+
